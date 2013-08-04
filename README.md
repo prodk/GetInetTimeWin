@@ -6,7 +6,7 @@ OS: Windows. The code was tested on Windows 7 Ultimate x64.
 
 Libraries: Windows Sockets.
 
-Both FORTRAN and C code were developed using Microsoft Visual Studio 2008. Fortran part uses PGI compiler
+Both FORTRAN and C code were developed using Microsoft Visual Studio 2008. Fortran part uses PGI compiler.
 
 Just run from the command line.
 
