@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--PGI Visual Fortran Project File-->
+<PGIproject Version="2.0">
+	<General ProjectIdGuid="{CB8A1F25-0529-4102-A7F5-60F43D5C03A0}"/>
+	<Configurations>
+		<Config Name="Debug|Win32" OutDir="$(PlatformName)\$(ConfigurationName)" IntDir="$(PlatformName)\$(ConfigurationName)" CfgTyp="0" DbgEnvMerge="0" DbgMPI="0" DbgFmt="0" Optzn="0" Names="1" LinkOutput="$(OutDir)\$(ProjectName).exe" LibDirs="$(SolutionDir)" LibDeps="Timedll.lib"/>
+		<Config Name="Release|Win32" OutDir="$(PlatformName)\$(ConfigurationName)" IntDir="$(PlatformName)\$(ConfigurationName)" CfgTyp="0" DbgEnvMerge="0" DbgMPI="0" Names="1" LinkOutput="$(OutDir)\$(ProjectName).exe" LibDirs="$(SolutionDir)" LibDeps="TimeDll.lib"/>
+	</Configurations>
+	<Files>
+		<Folder Name="Include Files">
+		</Folder>
+		<Folder Name="Resource Files">
+		</Folder>
+		<Folder Name="Source Files">
+			<File Name="FortranTimeClient.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|Win32"/>
+				<Config Name="Release|Win32"/>
+			</File>
+		</Folder>
+	</Files>
+	<ProjStartupServices/>
+	<Globals/>
+</PGIproject>

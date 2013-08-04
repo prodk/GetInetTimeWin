@@ -1,0 +1,17 @@
+*Debug
+TimeDll/TimeDll/Release
+*sdf
+*.ncb
+ipch
+*.suo
+*.user
+*.pdb
+*.d
+*.dwf
+*.htm*
+*.obj
+*.exp
+*.dep
+*.manifest
+*.idb
+*.doc
